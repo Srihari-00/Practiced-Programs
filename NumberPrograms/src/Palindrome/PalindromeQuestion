@@ -1,0 +1,10 @@
+Problem Statement :
+	Write a java program to check whether a number is a palindrome or not.
+	
+Explanation :
+	The Program will accepts a number from the user as input and store it in a variable(num). Initializing three 
+	variables named A=0, B, C has a assigned value of number(num). Using while loop, Storing the remainder 
+	of the number divided by 10 in B. The result of addtion of B to the A multiplied by 10(A*10+B). The quotient 
+	of the number when divided by 10 wil be assigned to the num. This while loop will continue until the condition 
+	num>0 fails. If the number A is equal to the value of C, then it displays "Palindrome" or else "Not a Palindrome"
+	on to the Console.

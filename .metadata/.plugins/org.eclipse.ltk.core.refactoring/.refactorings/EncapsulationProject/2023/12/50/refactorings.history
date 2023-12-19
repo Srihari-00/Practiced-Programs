@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.learn.bank.Bank.totalAmount&apos; in &apos;com.learn.bank.Bank&apos;&#x0D;&#x0A;- Original project: &apos;EncapsulationProject&apos;&#x0D;&#x0A;- Original element: &apos;com.learn.bank.Bank.totalAmount&apos;&#x0D;&#x0A;- Getter method name: &apos;getTotalAmount&apos;&#x0D;&#x0A;- Setter method name: &apos;setTotalAmount&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;totalAmount&apos;" flags="589830" getter="getTotalAmount" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.learn.bank{Bank.java[Bank^totalAmount" insertion="-1" setter="setTotalAmount" stamp="1702532261937" version="1.0" visibility="1"/>
+</session>

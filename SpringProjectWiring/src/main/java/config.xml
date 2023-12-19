@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean class="com.spring.example.SpringProjectWiring.KodNestClasses" id="kodclass">
+<property name="tr" ref="train2"></property>
+</bean>
+<bean class="com.spring.example.SpringProjectWiring.Trainer" id="train1">
+	<property name="t_id" value="11"></property>
+	<property name="t_name" value="Ramesh"></property>
+</bean>
+<bean class="com.spring.example.SpringProjectWiring.Trainer" id="train2">
+	<property name="t_id" value="12"></property>
+	<property name="t_name" value="Kamesh"></property>
+</bean>
+
+
+
+</beans>

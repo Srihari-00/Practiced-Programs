@@ -1,0 +1,9 @@
+Problem Statement :
+	Write a java program which should display the number name according to the number input given
+	by the user.
+	
+Explanation :
+	The Program accepts a integer type of value from the user and storing them in variables.
+	According the user input, by using the switch control construct the program will perform the names of 
+	months like One, Two, ..etc,. If the user enters other than the  number
+	it will show the output as Invalid Input.

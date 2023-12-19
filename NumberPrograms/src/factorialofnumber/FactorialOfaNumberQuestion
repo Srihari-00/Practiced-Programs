@@ -1,0 +1,7 @@
+Problem Statement : 
+	Write a java program which accepts a number from the user and prints its factorial number.
+	
+Explanation :
+	 We take a number from the user and store it in a reference variable. We initializing the factorial as 1.
+	 By using the for loop, the factorial is multiplied by I and assigned to the factorial. This loop will continue 
+	 until the condition i<=num fails. Then the program displays the Factorial of a number given on to the console.

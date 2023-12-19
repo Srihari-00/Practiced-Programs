@@ -1,0 +1,10 @@
+Problem Statement :
+	Write a program to print the Fibonacci series up to n terms.
+	
+Explanation :
+	We take a number n from the user as input. Consider that number as a Range. Now we have to print the fibonocci
+	series upto n terms.For that initializing the first value will always be 0 in fib1 and second term will be 1
+	in fib2 creating a third variable fib3. If the number(count) is equal to 1 then print fib1. If the number(count)
+	is equal to 2, then print fib1 and fib2. If the count is other than this, then print fib1 and fib2 and also
+	store the addition result of fib1 and fib2 in the third variable fib3. And perform the swapping operation among
+	the three variables and print fib3 only until the n number terms. 

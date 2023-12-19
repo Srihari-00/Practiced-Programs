@@ -1,0 +1,12 @@
+Problem Statement :
+	Write a Java Program to create an array of length as user input. And store the elements into the array.
+	The Program should perform the bubble sorting method. Display the Array before sorting and after sorting on
+	to the console.
+	
+Explanation : 
+	We will be creating an array of the length as per user input. Now storing the elements into the array
+	by the user input. By using the Enhanced for loop, displaying the array before sorting. Now using the for 
+	loop we use 'I' as number of iterations and 'j' as indexes.Now performing the swapping operation if the element
+	is greater than the elements of corresponding index. If not index value will be incremented.After performing 
+	the Bubble sort, Again displaying the Array as Sorted array on to the console.
+	

@@ -1,0 +1,37 @@
+package com.practice.areashapes;
+
+import java.util.Scanner;
+
+public class AreasApp 
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		String shapeType = scan.nextLine();
+		switch (shapeType)
+		{
+		case "Rectangle":
+			int length = scan.nextInt();
+			int width = scan.nextInt();
+			Rectangle rectangle = new Rectangle(length, width);
+			System.out.println("Area: " + rectangle.calculateArea());
+			break;
+			
+		case "Circle":
+			int radius = scan.nextInt();
+			Circle circle = new Circle(radius);
+			System.out.println("Area: " + circle.calculateArea());
+			break;
+		case "Triangle":
+			
+			int base = scan.nextInt();
+			int height = scan.nextInt();
+			Triangle triangle = new Triangle(base, height);
+			System.out.println("Area: " + triangle.calculateArea());
+			break;
+		
+		default:
+			System.out.println("Invalid shape type.");
+		}
+	}
+}

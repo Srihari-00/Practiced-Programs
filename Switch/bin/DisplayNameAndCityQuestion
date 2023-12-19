@@ -1,0 +1,9 @@
+Problem Statement :
+	Write a java program which should accepts a string value display the city name
+	according to the name given as input by the user.
+	
+Explanation :
+	The Program accepts a string type of value from the user and storing them in variables.
+	According the user input, by using the switch control construct the program will perform the names of 
+	city in which they are living like Mumbai, Bangalore, ..etc,. If the user enters other than the names
+	it will show the output as Invalid Input.

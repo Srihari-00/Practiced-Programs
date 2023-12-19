@@ -1,0 +1,13 @@
+Problem Statement : 
+	Write a java Program to create an array by size taking from the user and store the elements from the user.
+	Also take a key to be searched in the array by the using Binary Search. Write the Logic of the Binary Search 
+	in the Binary search method accepts two parameters array and key. And returns a string value that key 
+	is present at index or key is not present. Method has to be Static method.
+	
+Explanation : 
+	At First we will create an array of length given by the user.The elements which are to be stored in that 
+	created array also given by the user. Then the Key element which should be searched among the array is given
+	by the user. Now we perform to calculate the mid value by considering the low and high values. If the key 
+	value is matches to mid value then prints a message as key found. If key is greater than the mid then re-assign 
+	the low value as mid+1 and re-calculate the mid and if key is less than the mid re-assigning of high value with
+	mid-1; 

@@ -1,0 +1,12 @@
+Problem Statement :
+	Write a program to find the sum of the digits of a number until the sum
+	becomes a single digit.
+	
+Explanation : 
+	The program accepts an integer value from the user as input and store it in a int variable num.
+	By using the while loop, if the number is greater than 9, to check whether the number is single digit or not.
+	if not then initializing a variable sum=0,again check another condition if the number is greater than 0 then 
+	perform the task. Add the remainder of the number when divided by 10 to the sum and assign the value to the
+	sum. Now divide the number by 10, assign the resulted quotient to the num. This task will loop until (num>0)
+	fails. Now assigning the sum value to the num. After the condition (num>9) fails, Display the num value onto 
+	the console.  

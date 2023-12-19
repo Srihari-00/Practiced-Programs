@@ -1,0 +1,7 @@
+package com.learn.bank;
+
+public class Bank 
+{
+	int totalAmount = 450000;
+
+}

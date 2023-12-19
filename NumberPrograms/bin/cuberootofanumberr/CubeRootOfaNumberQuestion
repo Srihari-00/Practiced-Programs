@@ -1,0 +1,7 @@
+Problem Statement :
+	Write a program to find the cube root of a number. (use Math.cbrt())
+	
+Explanation :
+	Firstly, the program will accept an integer value that the user wants to calculate the 
+	cube root of a number and storing that number in a variable. By using the in-built math.crbt() function
+	the program calculates the cube root of a number and returns the result on to the console.

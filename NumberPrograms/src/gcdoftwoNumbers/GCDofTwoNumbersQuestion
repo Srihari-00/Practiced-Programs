@@ -1,0 +1,9 @@
+Problem Statement :
+	Write a java program to find the GCD of two numbers.
+	
+Explanation :
+	We accept two numbers of int type from the user as input. Initializing the GCD as 1. By using the for loop
+	where i is the number to check its GCD and must be less than the both the two numbers. If both the numbers divisible
+	by the number I and gives the remainder value as 0.then the highest number will be considered as its GCD by
+	assigning the I value to the GCD. And it displays the GCD on to the console.
+	

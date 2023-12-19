@@ -1,0 +1,7 @@
+Problem Statement :
+	Write a java program to accept the marks of a student and if the marks is greater than 90 then 
+	display a message like "Welcome to the TechClub" otherwise display "you are not selected".
+	
+Explanation : 
+	The program accepts the marks of a student and if the marks is greater than 90 then it 
+	displays a message like "Welcome to the TechClub", otherwise display "you are not selected".

@@ -1,0 +1,5 @@
+package com.spring.example2.SpringBootProject2.controller;
+
+public class Hello {
+
+}

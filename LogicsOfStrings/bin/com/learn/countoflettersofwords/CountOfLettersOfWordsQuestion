@@ -1,0 +1,20 @@
+Problem Statement : 
+	Write a java program to count the total number of characters present each word in the 
+	sentence entered by the user. And Display the output as shown below.
+	
+		Input --->  Java is object oriented Programming language.
+		Output--->	Characters present in "Java" is 		: 4
+					Characters present in "is"   is 		: 2
+					Characters present in "Object" is 		: 6
+					Characters present in "oriented" is 	: 8
+					Characters present in "Programming" is	: 11
+					Characters Present in "Language" is 	: 8
+					
+Explanation : 
+	The program should accepts a sentence as a string from the user. Then convert the string into 
+	String type of array by using the split() method. Now the no.of Words present is equals to the length
+	of the array. Displaying the total no.of words as the length of the array. By using the for Loop
+	the words were displayed according to their indexes.By using the for loop traversing the string array.
+	Converting the string at each index into character type array. Displaying the count of letters in each word
+	present in the sentence as character array length.
+	

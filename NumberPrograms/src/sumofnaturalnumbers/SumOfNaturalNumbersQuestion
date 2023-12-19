@@ -1,0 +1,15 @@
+Problem Statement :
+	Write a java program to print the sum of first n natural Numbers.
+	
+Explanation :
+	We start by importing the java.util.Scanner class to allow user input.In the main method,
+	we create a Scanner object named scanner to read user input.We prompt the user to enter the value 
+	of n using System.out.print("Enter the value of n: "); and then read the input using 
+	int n = scanner.nextInt();.We initialize an integer variable sum to store the sum of the natural numbers.
+	The for loop runs from i = 1 to i <= n, iterating through each natural number from 1 to n.
+	Inside the loop, sum += i; is used to add the current value of i to the sum on each iteration.
+	Once the loop finishes, we print out the calculated sum using 
+	System.out.println("The sum of the first " + n + " natural numbers is: " + sum);.
+	Finally, we close the scanner to release any resources.
+	When you run this program, it will ask the user to input a value for n, 
+	then it will calculate the sum of the first n natural numbers and display the result.

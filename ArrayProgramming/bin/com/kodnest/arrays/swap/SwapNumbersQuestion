@@ -1,0 +1,8 @@
+Problem Statement :
+	Write a java program to take two numbers as user input and store them in variable num1 and num2. 
+	Swap the numbers. And Print the numbers before swapping and after swapping.
+	
+Explanation :
+	Two numbers were taken from the user as input and store them in variables num1 and num2.
+	Displaying the numbers before swapping.	By using a third variable, performing the swapping 
+	operation. After swapping the numbers, again displaying the numbers.

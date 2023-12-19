@@ -1,0 +1,9 @@
+Problem Statement : 
+	Write a java program which should accepts the two integer values as user input.
+	And perform the calculator operations according the user input(Addition, subtraction,...ETC,.).
+	
+Explanation :
+	The Program accepts any two integer type of values from the user and storing them in variables.
+	According the user input, by using the switch control construct the program will perform the calculator 
+	operations like addition, subtraction, ..etc,. If the user enters other than the calculator operations
+	it will show the output as Invalid Input.

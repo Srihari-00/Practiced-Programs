@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+	<!-- <bean class="com.spring.autowiring.SpringProjectAutoWiring.Person" 
+		id="per" autowire="byType"> </bean> 
+		
+		<bean class="com.spring.autowiring.SpringProjectAutoWiring.Person"
+		id="per" autowire="byName">
+		-->
+	<bean class="com.spring.autowiring.SpringProjectAutoWiring.Person"
+		id="per" autowire="constructor">
+	</bean>
+
+	<bean class="com.spring.autowiring.SpringProjectAutoWiring.Mobile">
+		<property name="brand" value="OnePlus"></property>
+		<property name="ram" value="8"></property>
+		<property name="cost" value="30000"></property>
+
+	</bean>
+
+</beans>

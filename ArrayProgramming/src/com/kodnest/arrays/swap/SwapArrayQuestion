@@ -1,0 +1,10 @@
+Problem Statement : 
+	Write a java program to create an array and store the elements by taking the user input.
+	Also ask two indexes from the user which should be in the range of array indexes. Swap the elements
+	present at the given indexes and print the array before swapping and after swapping.
+	
+Explanation :
+	We will creating the array by taking the its length as user input. Elements will be stored to the array
+	by taking the user input. After storing the array, Displaying the Array before Swapping. Now, we were taking 
+	two indexes as input from the user. Performing the Swapping operation on that particular given indexes.
+	After swapping the indexes, again displaying the Array.

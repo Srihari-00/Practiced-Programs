@@ -1,0 +1,8 @@
+Problem Statement :
+	Write a java program to print the first n prime numbers.
+	
+Explanation :
+	We accept a number from the user as input and consider it as the nth term. Now initializing a variable count=0.
+	by using the for loops, where i= the numbers to be checked and where j=numbers divisible by. If the a number is divisible
+	by a number and gives a remainder as 0, then increment the count value by 1. If the count value is equal to 1 
+	then its is a prime number. Now Display all the prime numbers upto the range.

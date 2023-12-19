@@ -1,0 +1,8 @@
+Problem StateMent : 
+	Write a program to print all the even numbers between 1 and n.
+	
+Explanation :
+	We are taking the input of a number from the user and storing it in a variable.
+	using the for loop the i is starting natural number and goes until the end number entered by the user.
+	if the remainder is equal to 0 when the i is divided by 2 then only it will prints the All th Even Numbers
+	with in the range.

@@ -1,0 +1,12 @@
+Problem Statement :
+	Write a java program to find the largest digit in a number.
+	
+Explanation : 
+	The Program will accepts a number from the user as input and store it in a variable(num).
+	The remainder of the number(num) when divided by the 10 will be stored in a variable Largest_digit.
+	using the while loop only when the number(num) is greater than 10 only. The number is divided by the 10 and 
+	assigning the result to the Number(num). Now the remainder of the num divided by 10 is stored in a variable 
+	called Digit. if the digit is greater than the largest_digit, then assign the digit value to the Largest_digit.
+	This while loop will continue until the condition fail. Atlast the program will print the Largest_digit
+	of a Number.
+	

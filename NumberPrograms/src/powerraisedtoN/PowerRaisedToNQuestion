@@ -1,0 +1,10 @@
+Problem Statement :
+	Write a java program to print the result of a number when it is raised to power
+	n.
+	
+Explanation :
+	The program will accept two interger values from the user as input. One integer value as The base number and
+	stores in a variable num1 And the second integer value as power/exponent and stores in a variable num2. By 
+	using the inbuilt Math.pow function we calculate the power for the given input. The result will gives
+	the long datatype, so here explicit typecasting has to be done.For that we have convert the data type
+	manually forcefully into int data type And The result is displayed to the console.

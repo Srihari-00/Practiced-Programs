@@ -1,0 +1,19 @@
+package com.learn.bank;
+
+import java.util.*;
+
+public class BankApp {
+
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		Bank b = new Bank();
+		
+		System.out.println("Total Amount : "+b.totalAmount);
+		
+		
+		
+		scan.close();
+	}
+
+}

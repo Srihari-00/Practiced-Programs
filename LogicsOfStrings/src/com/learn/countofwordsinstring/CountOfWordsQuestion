@@ -1,0 +1,16 @@
+Problem Statement : 
+	Write a java program to take the user input as a sentence from the user and count the total
+	Number of words present in the sentence. And display the output as shown below.
+	
+		sentence--->  I am Learning Java.
+		Output :	Total No.of words are : 4
+					word 1 : I
+					word 2 : am
+					word 3 : Learning
+					word 4 : Java 
+					
+Explanation :
+	The program should accepts a sentence as a string from the user. Then convert the string into 
+	String type of array by using the split() method. Now the no.of Words present is equals to the length
+	of the array. Displaying the total no.of words as the length of the array. By using the for Loop
+	the words were displayed according to their indexes. 

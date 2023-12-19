@@ -1,0 +1,8 @@
+Problem Statement :
+	Write a java program to calculate the product of first n odd numbers.
+	
+Explanation :
+	The program accepts an integer value from the user as input and stores it in a variable num.
+	Initializing a variable Product=1. using the for loop, if the number is not divisible by the 2 then the 
+	number is odd. Now the number is multiplied with product and assign the result to the Product. This loop 
+	will continue until for loop fails.

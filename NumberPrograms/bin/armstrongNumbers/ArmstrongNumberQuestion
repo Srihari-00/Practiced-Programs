@@ -1,0 +1,10 @@
+Problem Statement : 
+	Write a java program to check whether a number is armstrong number or not.
+	
+Explanation : 
+	The program will accept a number and store it in a variable.we Initializing a variable is equal to 0.
+	Using the while loop, if the number is greater than 0, store the remainder value when the number is divided
+	by 10 and store the result in variable called digit. Adding the cube of digit to the sum and assigning to the 
+	sum. Assigning the quotient of the number divided by 10 to number. Continue this loop until the while condition 
+	fails. Then if the sum is equal to the original number, then display the "Number is Armstrong Number". Otherwise
+	prints "Number is not an Armstrong Number".

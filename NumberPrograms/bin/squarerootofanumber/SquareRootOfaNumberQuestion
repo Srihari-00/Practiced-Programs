@@ -1,0 +1,7 @@
+Problem Statement :
+	Write a program to find the square root of a number. (use Math.sqrt())
+	
+Explanation :
+	The program accepts a integer value from the user and stores it in a variable num.
+	By using the inbuilt Math.sqrt() function , we perform the calculation square root of a number.
+	The result is displayed on to the console.
